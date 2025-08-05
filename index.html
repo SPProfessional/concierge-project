@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Concierge</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -12,7 +12,7 @@
                 <div class="nav-brand">Navigation</div>
 
                 <div class="navicon" onclick ="toggleMenu()">☰</div>
-                <ul class="nav-menu">
+                <ul class="nav-menu" id="navMenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -35,7 +35,7 @@
 
         <script>
             function toggleMenu() {
-                document.getElementbyId("navMenu").classList.toggle("active");
+                document.getElementById("navMenu").classList.toggle("active");
             }
         </script>
     </body>
