@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Application</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <main>
+            <h1>Membership</h1>
+            <form action="#" method="POST"> 
+              <label for="fullname">Full Name:</label> <br />
+              <input type="text" id="fullname" name="fullname" required> <br />
+
+              <label for="email">Email Address:</label> <br />
+              <input type="email" id="email" name="email" required> <br />
+
+              <label for="membership">Membership Type:</label> <br />
+              <select id="membership" name="membership">
+                <option value="private">Private</option>
+                <option value="corporate">Corporate</option>
+              </select> <br />
+
+              <label for="message">Service Requirement</label> <br />
+              <textarea id="message" name="message" rows="5"></textarea> <br />
+
+              <button type="submit">Submit Application</button>
+            </form>
+        </main>
+    </body>
+</html>
